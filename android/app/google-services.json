@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "790160245569",
+    "project_id": "fyuzion-8556b",
+    "storage_bucket": "fyuzion-8556b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790160245569:android:3725d12411a09a799497c0",
+        "android_client_info": {
+          "package_name": "com.fyuzionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790160245569-emvkjt53at0io3jnbkcurqmk5g9ccu9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fyuzionapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "790160245569-c4t2j6qjg4n9rbn1mscgrsgiad39rn17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBElKHki2ZLGMwPMkYt6gQ_bzXFItee4pU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790160245569-c4t2j6qjg4n9rbn1mscgrsgiad39rn17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

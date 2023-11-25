@@ -1,0 +1,22 @@
+import { NativeModules } from "react-native";
+import store from "../store";
+import { logout, user } from "../store/auth";
+import { setMyPosts } from "../store/myPosts";
+
+export const mainColor = "#e11d48"; // Theme main color
+export const language = NativeModules.I18nManager.localeIdentifier;
+export const defaultImage = "data:image/jpeg;base64,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";
+
+export const setUserData = (infos) => {
+  if (infos) {
+    store.dispatch(user(infos));
+  } else {
+    store.dispatch(logout());
+  }
+}
+
+export const setUserPostsData = (posts) => {
+  if (posts) {
+    store.dispatch(setMyPosts(posts));
+  }
+}
